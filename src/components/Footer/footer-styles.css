@@ -1,0 +1,38 @@
+
+
+  .footerBtn{
+
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin: 1% 1%;
+  }
+  
+  .footerBtn:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    transform: scale(1.1)
+  }
+  
+
+  footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:80px;   /* Height of the footer */
+    margin: 0% 0% 0% 0%; 
+    color: white;
+  
+    /* Gradient */
+    background: rgba(11,19,43,1);
+    background: -moz-linear-gradient(-45deg, rgba(11,19,43,1) 0%, rgba(21,27,48,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(11,19,43,1)), color-stop(100%, rgba(21,27,48,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(11,19,43,1) 0%, rgba(21,27,48,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(11,19,43,1) 0%, rgba(21,27,48,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(11,19,43,1) 0%, rgba(21,27,48,1) 100%);
+    background: linear-gradient(135deg, rgba(11,19,43,1) 0%, rgba(21,27,48,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b132b', endColorstr='#151b30', GradientType=1 );
+  }
+  
