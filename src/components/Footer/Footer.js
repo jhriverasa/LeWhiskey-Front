@@ -8,30 +8,13 @@ class Footer extends Component{
         
         return (
             
-            <footer>
+            <footer>      
 
-                <a href = "/"
-                 target="_blank" rel="noopener noreferrer"> 
-                    <img className="footerBtn"
-                        src= "./static/img/contact/facebook-logo.svg"
-                        height = "60"
-                        width = "50"
-                        alt= "Facebook"
-                    ></img>
-                </a>
+                    <h6>Rafael Ricardo Alfaro </h6>
+                    <h6>NIT. 1030622740 - Regimen Simplificado </h6>
+                    <h6>Carrera 14 # 85 - 17 - Celular: 350 415 1969 </h6>
+                    <h6>Bogotá - Colombia  </h6>
 
-                <a href = "/" 
-                target="_blank" rel="noopener noreferrer">
-                    <img className="footerBtn"
-                        src= "./static/img/contact/twitter-logo.svg"
-                        height = "60"
-                        width = "50"
-                        alt= "Twitter"
-                    ></img>
-                </a>
-
-
-                <h3> Made from Colombia with ♥ </h3>
             </footer>
 
             

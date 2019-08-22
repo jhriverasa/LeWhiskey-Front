@@ -1,0 +1,29 @@
+
+    body{
+        /* gradient background*/
+        color: #ffffff;
+       
+    }
+
+    .main-title{
+        font-family: 'Saira Stencil One', cursive;
+    }
+
+    .invoice-form-base{
+
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    hr{
+        display: block;
+       
+        border-style: inset;
+        border-width: 2px;
+    }
+
+    .button-manage-product{
+        margin-top: 10%;
+        margin-bottom: 7%;
+    }
